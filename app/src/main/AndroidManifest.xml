@@ -4,7 +4,8 @@
 
     <!-- Khai báo quyền đọc tin nhắn SMS -->
     <uses-permission android:name="android.permission.READ_SMS"/>
-
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-feature android:name="android.hardware.telephony" android:required="false"/>
 
     <application
